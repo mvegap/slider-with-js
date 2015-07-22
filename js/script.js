@@ -1,9 +1,22 @@
-var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        spaceBetween: 30,
-        speed: 800,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        loop: true
-    });
+var SliderOne = new Swiper('#demo', {
+
+  paginationClickable: true,
+  spaceBetween: 30,
+  speed: 1000,
+  nextButton: '#next-arrow',
+  prevButton: '#prev-arrow',
+  loop: false
+
+});
+
+
+var SliderTwo = new Swiper('#demoTwo', {
+
+  paginationClickable: true,
+  spaceBetween: 30,
+  speed: 1000,
+  nextButton: '#nexxt',
+  prevButton: '#prevv',
+  loop: false
+
+});
